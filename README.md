@@ -38,7 +38,7 @@ The result is displayed dynamically on the webpage.
 
 Backend Repository
 The backend for this application is implemented in Java Spring Boot and runs on localhost:8080. Clone and set up the backend from the following link:
-Backend Repository
+https://github.com/MikeJeba/kidsapp-backend.git
 
 
 
