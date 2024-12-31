@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Fun Game for Kids</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="game-container" id="game-container">
+    <h1>Math Fun Game</h1>
+    <div class="question" id="question"></div>
+    <input type="number" id="answer" placeholder="Your answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <div class="result" id="result"></div>
+    <div class="score" id="score"></div>
+</div>
+
+<div class="result-container" id="result-container" style="display: none;">
+    <h1>Game Over!</h1>
+    <div class="final-score" id="final-score"></div>
+    <form id="username-form">
+        <input type="text" id="username" placeholder="Enter Username" required>
+        <button type="submit">Save Score</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
